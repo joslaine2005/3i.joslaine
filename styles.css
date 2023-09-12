@@ -1,0 +1,55 @@
+* Reset de Estilos */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header, nav, main, footer {
+    margin: 20px;
+}
+
+/* Estilos do Header */
+header {
+    text-align: center;
+}
+
+/* Estilos da Navegação */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #5c0808;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #5c0808;
+}
+
+/* Estilos do Main Content */
+main section {
+    border: 1px solid white ;
+    padding: 20px;
+    background-color: white;
+}
+
+/* Estilos do Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background-color:#5c0808;
+    color: #e8e6f7;
+}
